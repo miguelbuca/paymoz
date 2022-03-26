@@ -1,9 +1,14 @@
 import Auth from "../../templates/auth"
+import { SessionContainer } from "./styles";
 
 const Session = () => {
   return (
     <Auth>
-      <div>Session</div>
+      <SessionContainer>
+        <div>
+          ola
+        </div>
+      </SessionContainer>
     </Auth>
   );
 }

@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 const theme: Theme = {
   light: {
     color: {
-      primary: "#cf9a33",
+      primary: "#000",
     },
     bgColor: "#fff",
     fontColor: "#666666",

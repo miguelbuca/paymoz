@@ -1,4 +1,6 @@
 import { createGlobalStyle } from "styled-components";
+import GothamBold from "../assets/font/gotham/GothamBold.ttf";
+import GothamLight from "../assets/font/gotham/GothamLight.otf";
 
 const theme: Theme = {
   light: {
@@ -14,11 +16,14 @@ const theme: Theme = {
 };
 
 const GlobalStyle = createGlobalStyle`
+  @font-face {
+  font-family: 'Gotham';
+  src: url(${GothamLight}) format('otf'),
+       url(${GothamBold}) format('ttf');
+}
     body {
         margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-            'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-            sans-serif;
+        font-family: 'Gotham';
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         height: 100%;

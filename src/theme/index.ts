@@ -6,7 +6,7 @@ const theme: Theme = {
       primary: "#000",
     },
     bgColor: "#fff",
-    fontColor: "#666666",
+    fontColor: "rgba(0,0,0,.4)",
     body: {
       bgColor: "#EBEBEB",
     },

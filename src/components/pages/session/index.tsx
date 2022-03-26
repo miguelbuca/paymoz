@@ -1,3 +1,4 @@
+import SessionForm from "../../organisms/sessionForm";
 import Auth from "../../templates/auth"
 import { SessionContainer } from "./styles";
 
@@ -6,7 +7,7 @@ const Session = () => {
     <Auth>
       <SessionContainer>
         <div>
-          ola
+          <SessionForm/>
         </div>
       </SessionContainer>
     </Auth>

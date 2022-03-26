@@ -1,3 +1,5 @@
 import { InputHTMLAttributes } from "react";
 
-export interface SearchInput extends InputHTMLAttributes<HTMLInputElement> {}
+export interface Button extends InputHTMLAttributes<HTMLButtonElement> {
+    label?: string
+}

@@ -18,7 +18,16 @@ export const AuthContainer = styled.main`
       grid-template-columns: 1fr 1fr;
       padding: 41px 62px;
 
-      &>div:last-child {
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        & > :last-child {
+          margin-top: 41px;
+        }
+      }
+
+      & > div:last-child {
         display: flex;
         justify-content: flex-end;
       }

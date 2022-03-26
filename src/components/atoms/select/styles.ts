@@ -8,4 +8,5 @@ export const SelectContainer = styled.select`
   border: none;
   border: solid 1px ${({ theme }: any) => theme.light.fontColor};
   outline: none;
+  font-size: 14px;
 `;

@@ -16,11 +16,11 @@ const theme: Theme = {
 };
 
 const GlobalStyle = createGlobalStyle`
-  @font-face {
-  font-family: 'Gotham';
-  src: url(${GothamLight}) format('otf'),
-       url(${GothamBold}) format('ttf');
-}
+    @font-face {
+      font-family: 'Gotham',sans-serif !important;
+      src: url(${GothamLight}) format('otf'),
+          url(${GothamBold}) format('ttf');
+    }
     body {
         margin: 0;
         font-family: 'Gotham';

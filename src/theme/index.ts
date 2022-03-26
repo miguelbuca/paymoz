@@ -24,12 +24,6 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;
         overflow-x: hidden;
         background-color: ${({ theme }: any) => theme?.light?.body.bgColor};
-
-        &>*:first-child{
-          flex: 1;
-          width: 100vw;
-          height: 100%;
-        } 
     }
 `;
 
